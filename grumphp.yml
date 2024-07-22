@@ -1,0 +1,6 @@
+---
+grumphp:
+  extensions:
+    - GrumphpMonorepoBuilder\Loader
+  tasks:
+    monorepo_builder: ~

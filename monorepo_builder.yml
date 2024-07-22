@@ -1,0 +1,6 @@
+services:
+  monorepo_builder:
+    class: GrumphpMonorepoBuilder\MonorepoBuilder
+    arguments: [ '@process_builder', '@formatter.raw_process' ]
+    tags:
+      - { name: grumphp.task, task: monorepo_builder }

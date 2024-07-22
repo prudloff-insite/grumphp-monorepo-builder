@@ -1,0 +1,26 @@
+{
+    "name": "insite/grumphp-monorepo-builder",
+    "description": "GrumPHP task that calls 'monorepo-builder validate'",
+    "license": "GPL-2.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "GrumphpMonorepoBuilder\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.1",
+        "phpro/grumphp": "^2.6",
+        "symplify/monorepo-builder": "^11.2"
+    },
+    "config": {
+        "platform": {
+            "php": "8.1.29"
+        },
+        "allow-plugins": {
+            "phpro/grumphp": true
+        }
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^6.4"
+    }
+}
