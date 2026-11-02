@@ -3,6 +3,6 @@
     "description": "Fake subproject to test the grumphp task",
     "license": "GPL-2.0-or-later",
     "require": {
-        "php": ">=8.1"
+        "php": ">=8.3"
     }
 }

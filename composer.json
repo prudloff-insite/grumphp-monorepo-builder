@@ -8,13 +8,13 @@
         }
     },
     "require": {
-        "php": ">=8.1",
+        "php": ">=8.3",
         "phpro/grumphp": "^2.6",
-        "symplify/monorepo-builder": "^11.2"
+        "symplify/monorepo-builder": "^12.7"
     },
     "config": {
         "platform": {
-            "php": "8.1.29"
+            "php": "8.3.36"
         },
         "allow-plugins": {
             "phpro/grumphp": true
